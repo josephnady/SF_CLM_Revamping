@@ -132,21 +132,24 @@ This is the suitable folder structure for any HTML CLM presentaion to be compati
 
 ```bash
 CLM_Folder/
-    |__ 01-index.html #page 1 HTML file
-    |__ 02-index.html #page 2 HTML file
-    |__ *-index.html
-        css/
-            |__ 01css/ #page 1 css files
-            |__ 02css/ #page 2 css files
-            |__ *css/
-        js/
-            |__ 01js/ #page 1 js files
-            |__ 02js/ #page 2 js files
-            |__ *js/
-        images/
-            |__ 01images/ #page 1 images
-            |__ 02images/ #page 2 images
-            |__ *images/
+    |__ 01_index.html  #page 1 HTML file
+
+    |__ 01_thumbnail.jpg  #page 1 thumbnail file
+    |__ 02_index.html  #page 2 HTML file
+
+    |__ 02_thumbnail.jpg  #page 2 thumbnail file
+        css/
+            |__ 01css/ #css folder for page 1 css files
+            |__ 02css/ #css folder for page 2 css files
+            |__ *css/
+        js/
+            |__ 01js/ #js folder for page 1 js files
+            |__ 02js/ #js folder for page 2 js files
+            |__ *js/
+        images/
+            |__ 01images/ #images folder for page 1 images
+            |__ 02images/ #images folder for page 2 images
+            |__ *images/
 ```
 
 ## Contributing
